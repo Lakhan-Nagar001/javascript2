@@ -1,0 +1,154 @@
+(1)Color Property   [used to set the color of forground]
+
+we can also use this in [change color of  text,button,link ]
+color: red;
+color:pink;
+
+
+/* (2)Text Properties */
+font-weight
+
+font weight: normal/bold/bolder/lighter
+font weight: lightest value(100) - darkest value(900)
+
+/* color systems-> */
+
+1. RGB SYSTEMS->  [search in google - Colour picker ]
+
+color: rgb(255,0,0);  [red=255, green=0, blue=0]  , 255 is a maximum value of color.
+
+color: rgb()
+
+2. HEX (Hexadecimal) System-> [49:00]
+
+color: #ff0000;  [red is ff, green is 00, blue is 00]   output red
+color: #00ff00;
+
+
+SELECTORS->
+
+1. Universal selector   
+
+*{}  -> * is asterisk   [& ko Amper send bolna h ] 
+
+
+2. Element selector->  h1{ }
+
+3. Id Selector->  #myid{ }
+
+example->  <h1 id="headingOne"> This is heading1 </h1>  
+
+styling->  #headingOne{
+    color: yellow;
+}  
+
+4. Class selctor-> .myclass{}  [multiple element ko same style dene k liye same class ko use krna h ]
+
+
+we can change like this->
+
+h1,h2,h3{
+           color: red;
+}
+
+
+/* Text Properties */
+
+1. text align ->
+
+p{
+    text-align :right (we can also cahnge like this left,right,center) 
+
+}
+
+2. Text Decoration->
+
+text-decoration: underline / overline / line-through 
+
+3. font-weight: normal / bold / bolder / lighter
+font-weight: 100-900
+
+4. Font-Family-> [1. Generic, 2. Specific]
+
+                 font-d-family : arial
+                font-family : arial , roboto , Tahoma, verdana, sans-serif;
+
+             1. Generic-> 
+                          Serif, Sans-serif, Cursive, Fantasy, Monospace   
+
+                          
+/* Units in CSS  */
+
+Pixel (px) 
+           96px = 1 inch = 2.54cm
+
+#idName{
+    font-size: 50px
+}
+
+Line-Height -> 
+              line-height : 2px
+
+              line height : normal
+
+6. Text- Transform
+
+           text-transforms : uppercase / lowercase / capitalize / none
+
+
+ /* PRACTIC QUESTIONS      [time 1:54:00]     */
+
+
+
+
+                         /* LEVEL-2 [1:55:46] */
+
+
+  /* BOX MODEL IN CSS   */
+
+  [Height, width, border, Padding, Margin]
+
+  div{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    /* border-width: 2px;                              [output is BOX] */
+    border-style: solid; 
+    border-color: green;
+    text-align: right;
+  }
+
+note-> we can also use this properties in paragraph tag
+
+/* border */
+
+shorthand- 
+             border: 2px solid green;  [3 properties in single element]
+
+
+ /* Padding     */
+
+ .padding-left
+ .pedding-right
+ .pedding-top
+ .padding-bottom
+
+ padding-short-hand ->   padding: 1px(Top) 2px(right) 3px(bottom) 4px(left)   [clockwise]
+
+
+ /* Margin */
+
+  
+              ----->  PRACTIS QUESTION [2:25:00]-------->
+
+
+Question-> craate amazon navigation  bar?
+
+
+
+/* Display properties */
+
+.Inline -> takes only the space required by the element.(no margin/padding) 
+.block -> Takes full  space available in width 
+.inline-block -> Similar to inline but we can set margin & padding. 
+.none -> To remove element from documenet flow.

@@ -1,0 +1,115 @@
+ body{
+    background-color:burlywood;
+}
+
+p{
+    background-color:chocolate;
+    
+}
+
+
+  h1 {
+    color:black;
+    text-align: center;
+    text-decoration: white underline;
+    text-transform: capitalize;
+   }
+
+   #h2{
+    font-weight:bolder;
+    font-size: 40px;
+     line-height: 
+   }
+    
+
+    
+                     /* [ CSS Tutorial Level 2 ] */
+
+
+/*                         
+
+
+   div{
+         height: 100px;
+         width:200px;
+         background-color: yellow;
+         border: 2px solid brown;
+         text-align: right;
+         border-radius: 15px;
+   } */
+
+
+    
+    
+    /* div{
+        height: 100px;
+         width:100px;
+         background-color: yellow;
+         border: 2px solid brown;
+         text-align: right;
+         border-radius: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+
+
+    } */
+
+    /* div{
+          height: 100px;
+         width:100px;
+         background-color: yellow;
+         border: 2px solid brown;
+         text-align: right;
+         
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px
+    } */
+/* 
+div{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border: 2px solid yellow;
+  border-radius: 50px;
+
+} */
+
+
+
+
+
+
+/* AMAZON NAVIGATION BAR MODAL */
+
+
+/* 
+*{
+  padding: 0;
+  margin:0;
+  color:white;
+}
+
+#navbar {
+         height: 60px;
+         background-color: black;
+}
+
+button{
+  background-color:#f08804;
+  
+}
+
+#logo{
+  color:#f08804;
+  font-size:larger;   
+}
+a{
+  margin-right: 200px;
+  text-decoration: none;
+} */
+
+
