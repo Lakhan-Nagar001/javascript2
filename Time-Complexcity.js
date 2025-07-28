@@ -12,3 +12,7 @@
 
 // worst case scnerio - O upper bound 
 
+function even(){
+    let even = []
+    
+}
